@@ -68,7 +68,7 @@ if(!username){
   username = prompt("Siapa nama kamu?");
   localStorage.setItem("visitorName",username);
 }
-document.getElementById("aiText").innerText = `Selamat Datang 👋`;
+document.getElementById("aiText").innerText = `Welcome, ${username} 👋`;
 
 // Dynamic Dark Mode 2.0
 const toggle = document.getElementById("darkToggle");
@@ -106,3 +106,4 @@ document.querySelectorAll(".filter-btn").forEach(btn => {
     renderGallery(btn.dataset.filter);
   });
 });
+
