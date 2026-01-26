@@ -10,6 +10,7 @@ const teamData = [
   {name:"DIMAS WIJAYA", role:"PACKER", img:"team4.jpg"},
   {name:"FEBI ARYANTO", role:"PACKER", img:"team4.jpg"},
   {name:"RAHMAT DIKI", role:"PACKER", img:"team4.jpg"},
+  {name:"ARI SANTOSO", role:"ASSISTANT DRIVER", img:"team4.jpg"},
   {name:"NDARU GAESANG", role:"PICKER", img:"team4.jpg"},
   {name:"RIZKY HARYANTO", role:"PICKER", img:"team4.jpg"}
 ];
@@ -106,4 +107,3 @@ document.querySelectorAll(".filter-btn").forEach(btn => {
     renderGallery(btn.dataset.filter);
   });
 });
-
