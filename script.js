@@ -1,5 +1,5 @@
 const teamData = [
-  {name:"MAESA ADIYANSAH", role:"ADMIN", img:"team1.jpg"},
+  {name:"MAESA ADIYANSAH", role:"ADMIN", img:"profile.jpg"},
   {name:"RIKKI KURNIAWAN", role:"PIC RUKO", img:"team2.jpg"},
   {name:"RIKI ABEI P", role:"PIC OJOL", img:"team3.jpg"},
   {name:"ANDIKA", role:"DRIVER", img:"team4.jpg"},
@@ -107,3 +107,4 @@ document.querySelectorAll(".filter-btn").forEach(btn => {
     renderGallery(btn.dataset.filter);
   });
 });
+
