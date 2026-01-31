@@ -1,5 +1,5 @@
 const teamData = [
-  {name:"ALOYSIUS DIMAS", role:"NOMAD", img:"profile.jpg"},
+  {name:"ALOYSIUS DIMAS", role:"NOMAD", img:"1.jpg"},
   {name:"MAESA ADIYANSAH", role:"ADMIN", img:"profile.jpg"},
   {name:"RIKKI KURNIAWAN", role:"PIC RUKO", img:"team2.jpg"},
   {name:"RIKI ABEI P", role:"PIC OJOL", img:"team3.jpg"},
@@ -108,5 +108,6 @@ document.querySelectorAll(".filter-btn").forEach(btn => {
     renderGallery(btn.dataset.filter);
   });
 });
+
 
 
